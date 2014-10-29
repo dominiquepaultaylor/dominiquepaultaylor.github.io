@@ -304,12 +304,12 @@ h3 {
 
 .face-lockup {
   max-width: 780px;
-  height: auto;
-  background-color: pink; }
+  height: auto; }
   .face-lockup .face-img {
     height: 200px;
     width: 200px;
-    background: url("../images/face/jpg");
+    background: url("../img/face.jpg") center center;
+    border-radius: 100px;
     order: 3; }
   .face-lockup [class^="icon-"] {
     height: 100px;
