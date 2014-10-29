@@ -1,0 +1,19 @@
+h3
+    @extend %small-bold
+    color: $accent
+    text-align: center
+
+.face-lockup
+    max-width: 780px
+    height: auto
+    //+display(flex)
+    background-color: pink
+    
+    .face-img
+        +size(200px)
+        background: url("../images/face/jpg")
+        order: 3
+        
+    
+    [class^= "icon-"]
+        +size(100px)

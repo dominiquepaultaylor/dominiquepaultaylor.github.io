@@ -226,14 +226,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header nav a, header .kicker, footer .lockup a {
+header nav a, header .kicker, footer .lockup a, h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase; }
 
 header {
   height: 450px;
-  background: url("../images/josiebackground.jpg") center center;
+  background: url("../img/josiebackground.jpg") center center;
   background-size: cover; }
   header .logo {
     height: 50px;
@@ -271,7 +271,7 @@ header {
     line-height: 1; }
 
 footer {
-  background: url("../images/josiebackground.jpg") center center;
+  background: url("../img/josiebackground.jpg") center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -297,3 +297,20 @@ footer {
       margin-right: 35px; }
       footer .lockup a:hover {
         color: rgba(255, 255, 255, 0.9); }
+
+h3 {
+  color: #e1c184;
+  text-align: center; }
+
+.face-lockup {
+  max-width: 780px;
+  height: auto;
+  background-color: pink; }
+  .face-lockup .face-img {
+    height: 200px;
+    width: 200px;
+    background: url("../images/face/jpg");
+    order: 3; }
+  .face-lockup [class^="icon-"] {
+    height: 100px;
+    width: 100px; }
