@@ -1,9 +1,15 @@
+#_config.yml
+
+title: Josie Guenther
+email: dominique.taylor@dal.ca
+description: "Screenprint//Lithography//Design"
+
 # Build settings
 
 markdown: kramdown
 permalink: pretty
 
-port: 3000
+port: 4000
 
 sass:
   sass_dir: assets/css

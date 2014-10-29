@@ -226,9 +226,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+header nav a, header .kicker, footer .lockup a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 header {
   height: 450px;
-  background: #ccc; }
+  background: url("../images/josiebackground.jpg") center center;
+  background-size: cover; }
   header .logo {
     height: 50px;
     width: 50px;
@@ -241,12 +247,9 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.7);
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase; }
+      color: rgba(255, 255, 255, 0.6); }
       header nav a:hover {
-        color: black; }
+        color: rgba(255, 255, 255, 0.9); }
   header h1 {
     text-align: center;
     font-size: 72px;
@@ -263,8 +266,34 @@ header {
       border: white solid 10px; }
   header .kicker {
     text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.5em;
     Color: white;
     line-height: 1; }
+
+footer {
+  background: url("../images/josiebackground.jpg") center center;
+  background-size: cover; }
+  footer .lockup {
+    padding: 50px 30px; }
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer .lockup .logo {
+      height: 50px;
+      width: 50px;
+      float: left;
+      margin-right: 30px; }
+    footer .lockup .content-wrap {
+      float: left; }
+    footer .lockup .copyright {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: white; }
+    footer .lockup a {
+      color: rgba(255, 255, 255, 0.6);
+      display: inline-block;
+      margin-right: 35px; }
+      footer .lockup a:hover {
+        color: rgba(255, 255, 255, 0.9); }
